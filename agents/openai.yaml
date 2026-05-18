@@ -1,7 +1,0 @@
-interface:
-  display_name: "Qwen3 Voice Clone"
-  short_description: "Clone authorized voices with Qwen3-TTS"
-  default_prompt: "Use $qwen3-voice-clone to create a 30-second reference clip and generate a Qwen3-TTS clone sample."
-
-policy:
-  allow_implicit_invocation: true

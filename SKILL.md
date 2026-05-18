@@ -1,5 +1,5 @@
 ---
-name: qwen3-voice-clone
+name: local-voice-clone
 description: >
   Create an authorized Qwen3-TTS voice clone sample from a local audio/video
   file, direct media URL, or YouTube URL. Use when the user provides a source
@@ -8,10 +8,10 @@ description: >
   cloning, and used with Qwen3-TTS Base to generate cloned speech. Only use for
   the user's own voice or a voice they explicitly have permission to clone.
 metadata:
-  short-description: Authorized Qwen3-TTS voice cloning workflow
+  short-description: Authorized local Qwen3-TTS voice cloning workflow
 ---
 
-# Qwen3 Voice Clone
+# Local Voice Clone
 
 Build a local, authorized voice-clone sample from a short reference clip.
 The default workflow is optimized for a 30-second reference window and runs
